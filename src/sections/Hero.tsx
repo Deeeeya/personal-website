@@ -3,6 +3,7 @@ import Image from "next/image";
 import ArrowDown from "@/assets/icons/arrow-down.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import StarIcon from "@/assets/icons/star.svg";
+import { HeroOrbit } from "@/components/HeroOrbit";
 
 export const HeroSection = () => {
   return (
@@ -17,9 +18,15 @@ export const HeroSection = () => {
       <div className="size-[820px] hero-ring"></div>
       <div className="size-[1020px] hero-ring"></div>
       <div className="size-[1220px] hero-ring"></div>
-      <div className="absolute">
-        <StarIcon className="size-28 text-emerald" />
-      </div>
+      <HeroOrbit size={800} rotation={-72}>
+        <StarIcon className="size-28 text-emerald-300" />
+      </HeroOrbit>
+      <HeroOrbit size={550} rotation={20}>
+        <StarIcon className="size-12 text-emerald-300" />
+      </HeroOrbit>
+      <HeroOrbit size={590} rotation={98}>
+        <StarIcon className="size-8 text-emerald-300" />
+      </HeroOrbit>
       <div className="container">
         <div className="flex flex-col items-center">
           <Image
