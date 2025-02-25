@@ -92,7 +92,7 @@ export const AboutSection = () => {
     <div className="py-20 lg:py-28">
       <div className="container">
         <SectionHeader
-          eyebrow="ABout Me"
+          eyebrow="About Me"
           title="A Glimpse Into My World"
           description="Learn more about who I am, what I do, and what inspires me."
         />
