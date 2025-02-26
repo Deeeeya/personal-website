@@ -11,14 +11,14 @@ import { Fragment } from "react";
 
 const testimonials = [
   {
-    name: "Alex Turner",
-    position: "Marketing Manager @ TechStartups",
+    name: "Mustafa Rajeh",
+    position: "Co-Founder of Wireflow",
     text: "Alex was instrumental in transforming our website into a powerful marketing tool. His attention to detail and ability to understand our brand is exceptional. We're thrilled with the results!",
     avatar: memojiAvatar1,
   },
   {
-    name: "Olivia Green",
-    position: "Head of Design @ GreenLeaf",
+    name: "Nader Abdulrub",
+    position: "Co-Founder of Wireflow",
     text: "Working with Alex was a pleasure. His expertise in frontend development brought our designs to life in a way we never imagined. The website has exceeded our expectations.",
     avatar: memojiAvatar2,
   },
@@ -47,9 +47,9 @@ export const TestimonialsSection = () => {
     <div className="py-16 lg:py-24">
       <div className="container">
         <SectionHeader
-          eyebrow="Happy Clients"
-          title="What Clients Say about Me"
-          description="Don't just take my work for it. See what my clients have to say about my
+          eyebrow="Happy Mentors"
+          title="What Mentors Say about Me"
+          description="Don't just take my work for it. See what my mentors have to say about my
         work."
         />
         <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] py-4 -my-4">
