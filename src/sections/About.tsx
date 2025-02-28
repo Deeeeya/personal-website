@@ -2,7 +2,7 @@
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
 import Image from "next/image";
-import bookImage from "@/assets/images/book-cover.png";
+import bookImage from "@/assets/images/new-book-cover.png";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
 import HTMLIcon from "@/assets/icons/html5.svg";
 import CssIcon from "@/assets/icons/css3.svg";
@@ -57,8 +57,8 @@ const hobbies = [
     top: "5%",
   },
   {
-    title: "Hiking",
-    emoji: "🥾",
+    title: "Cooking",
+    emoji: "🍳",
     left: "35%",
     top: "40%",
   },
@@ -92,7 +92,7 @@ export const AboutSection = () => {
   const constraintRef = useRef(null);
   return (
     <div className="py-20 lg:py-28">
-      <div className="container">
+      <div id="about" className="container">
         <SectionHeader
           eyebrow="About Me"
           title="A Glimpse Into My World"
