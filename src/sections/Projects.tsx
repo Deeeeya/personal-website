@@ -1,6 +1,6 @@
-import darkSaasLandingPage from "@/assets/images/dark-saas-landing-page.png";
-import lightSaasLandingPage from "@/assets/images/light-saas-landing-page.png";
-import aiStartupLandingPage from "@/assets/images/ai-startup-landing-page.png";
+import cozyPantryChecker from "@/assets/images/cozy-pantry-checker.png";
+import aiNatureChatbot from "@/assets/images/nature-chatbot.png";
+import cardGeniusIo from "@/assets/images/cardgenius-io.png";
 import Image from "next/image";
 import CheckCircleIcon from "@/assets/icons/check-circle.svg";
 import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
@@ -10,40 +10,40 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
   {
-    company: "Acme Corp",
-    year: "2022",
-    title: "Dark Saas Landing Page",
+    company: "Headstarter AI",
+    year: "2024",
+    title: "My Cozy Pantry",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "Streamlined food inventory management system" },
+      { title: "Enhanced kitchen organization with search" },
+      { title: "Simplified pantry tracking and control" },
     ],
-    link: "https://youtu.be/4k7IdSLxh6w",
-    image: darkSaasLandingPage,
+    link: "https://cozy-pantry-checker.vercel.app/",
+    image: cozyPantryChecker,
   },
   {
-    company: "Innovative Co",
-    year: "2021",
-    title: "Light Saas Landing Page",
+    company: "Headstarter AI",
+    year: "2024",
+    title: "AI Botanist Chatbot",
     results: [
-      { title: "Boosted sales by 20%" },
-      { title: "Expanded customer reach by 35%" },
-      { title: "Increased brand awareness by 15%" },
+      { title: "AI-powered instant botanical knowledge assistant" },
+      { title: "Fast plant expertise with OpenAI" },
+      { title: "Nature questions answered in seconds" },
     ],
-    link: "https://youtu.be/7hi5zwO75yc",
-    image: lightSaasLandingPage,
+    link: "https://nature-chatbot.vercel.app/",
+    image: aiNatureChatbot,
   },
   {
-    company: "Quantum Dynamics",
-    year: "2023",
-    title: "AI Startup Landing Page",
+    company: "Wireflow",
+    year: "2024",
+    title: "CardGenius.io",
     results: [
-      { title: "Enhanced user experience by 40%" },
-      { title: "Improved site speed by 50%" },
-      { title: "Increased mobile traffic by 35%" },
+      { title: "AI-generated study tools with storage" },
+      { title: "Subscription-based smart learning platform" },
+      { title: "Automated flashcard creation and management" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
-    image: aiStartupLandingPage,
+    link: "https://cardgenius-io.vercel.app/",
+    image: cardGeniusIo,
   },
 ];
 

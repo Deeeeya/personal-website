@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export const Header = () => {
   return (
     <div className="flex justify-center items-center fixed top-3 w-full z-10">
