@@ -121,9 +121,8 @@ export const HeroSection = () => {
             Building Exceptional User Experiences
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming designs into functional,
-            high-performing web applications. Let&apos;s discuss your next
-            project.
+            I build innovative applications with clean, efficient code that
+            solves real-world problems effectively.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
